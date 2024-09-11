@@ -15,6 +15,8 @@
             <li><a href="{{ route('memos.show', $memo) }}">{{ $memo->title }}</a></li>
         @endforeach
     </ul>
+
+    <button onclick='location.href="{{ route("memos.create") }}"'>登録する</button>
 </body>
 
 </html>
