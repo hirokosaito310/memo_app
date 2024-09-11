@@ -15,7 +15,7 @@
     <a href="{{ route('memos.index') }}">戻る</a>
     <h1>新規登録</h1>
     <form action="" method="post">
-        @csrf
+       @csrf
         <p>
             <label for="title">タイトル</label><br>
             <input type="text" name="title" id="title">
